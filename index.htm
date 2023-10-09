@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Desáfio - Bootcamp HTML na prática</title>
+</head>
+<body>
+    <h1 id="INICIO">Ensinando tudo o que aprendi com o curso da DIO </h1>
+    <hr/>
+    <blockquote>Olá, tudo boom? Hoje eu maratonei 5 horas do bootcamp de HTML da DIO, estou muito entusiasmado com essa plataforma incrível. A seguir mostrarei tudo o que aprendi até aqui. Bora comigo nessa?</blockquote>
+    <ul>
+        <li><a href="#ECCS">Entendendo Comunicação Client x Server</a></li>
+        <li><a href="#INHTMLP">Introdução ao HTML na prática</a></li>
+        <li><a href="#EDEPDIO">Entendo a dinâmica de entrega de Projetos da DIO</a></li>
+        <li><a href="#ARPE">Agradecimentos e Referências para estudos</a></li>
+    </ul>
+    <h2 id="#ECCS">Entendendo Comunicação Client x Server</h2>
+    <p><strong><u>Objetivo Geral:</u></strong> O objetivo geral dessa fase inicial do curso é contextualizar e apresentar os conceitos da base da programação e da internet como conhecemos hoje.</p>
+   
+    <h2 id="INHTMLP">Introdução ao HTML na prática</h2>
+    <a href="#INICIO"><small>Voltar</small></a>
+    <p>Abaixo explicarei tudo o que cada tag faz</p>
+    <h3><u>Tag "html"</u></h3>
+    <p>Ela é serve para especificar para o navegador que será feito um documento formatado em html</p>
+    <h3><u>Tag "head"</u></h3>
+    <p>Dentro dela há todos os componentes que devem ser carregados antes da página ser carregada para o usúario</p>
+    <h3><u>Tag "Body"</u></h3>
+    <p>Ela agrega todo o conteúdo que será apresentado ao Client (usuário)</p>
+    <h3><u>Tag "Strong"</u></h3>
+    <p>Deixa o texto em <strong>negrito</strong></p>
+    <h3><u>Tag "I"</u></h3>
+    <p>Deixa o texto em <i>italico</i></p>
+    <h3>Atributos de Tags</h3>
+    <ul>
+        <li>São configurações especificas que podem ser aplicadas nas tags.</li>
+    </ul>
+    <p><mark style="background-color:orangered; color:white">Exemplos:</mark></p>
+    <h3>Atributo "ID"</h3>
+    <p>Esse atributo server como um indentificador para a tag, isso é muito útil para quando queremos linkar um item a outro cdentro da mesma página com a tag "a".</p>
+    <h3>Atributo "Style"</h3>
+    <p>Ele é uma mão na roda na hora de estilizar algum elemento direto no html. Como exemplo usei a tag "mark" para marcar o texto e depois usei o atributo "style" paras trocar a cor amarela padrão pela orangered e o texto para branco (você pode conferir como eu fiz ossp dando um f12 e inspecionando o elemento "exemplo" pelas opções do desenvolvedor.</p>
+    <h3>Atributo "Class"</h3>
+    <p>Esse elemento (atributo) também muito é útil para estilização de tags via CSS, ele aplica as mesmas configuração de estilo em todos os elementos que estivere dentro da tag</p>
+    <h3>tag "input" e seus Atributos</h3> 
+    <p>A tag input é um dos casos especiais do html, nela é possível criar uma caixa de texto, é uma boa escolha para qwuem for criar formulários.Veja o funcionamento dela a seguir </p>
+    <input type="text"/>
+    <p>Tá, mas e os atributos? Bom, os principais atributos dessa tag são:
+    </p>
+    <ul>
+        <li>Text</li>
+        <p>Quando for apenas um simples texto</p>
+        <li>Number</li>
+        <p>Quando for números</p>
+    </ul>
+<h3>Tag "img"</h3>
+<p>Essa tag é usada para adicionar imagens, ela só funciona quando adicionado o atributo "src". Veja um exemplo dela em ação:</p>
+<img width="150"src="https://rapidapi.com/blog/wp-content/uploads/2018/06/logo-2582748_640.png">
+<h3>Textos do "h1" ao "h6"</h3>
+<p>Os "h's" servem para definir titulos e subtitulos em uma página. Veja um exemplo prático:</p>
+<h1>Titulo</h1>
+<h2>Subtitulo 1</h2>
+<h3>Subtitulo 2</h3>
+<h4>Subtitulo 3</h4>
+<h5>Subtitulo 4</h5>
+<h6>Subtitulo 5</h6>
+<h3>Tag "p"</h3>
+<p>Essa é a tag de parágrafo, ela geralmente é utilzada em textos. Esse texto foi feito dentro dessa tag</p>
+<h3>Tag "blockquote"</h3>
+<p>Ela é usada para fazer citações em textos. Observe ela agindo:</p>
+<blockquote>"Para aprender algo, é necessário entender o básico"</blockquote>
+<h3>Tag "u"</h3>
+<p>É usada para <u>sumblinhar </u>elementos de texto.</p>
+<h3>Tag "mark"</h3>
+<p>É usada para marcar <mark>partes</mark> do texto</p>
+<h3>Tag "sup"</h3>]
+<p>É muito usada para ecpressar potência em matemática e física. Exemplo:</p>
+<p>484x10<sup>-4</sup></p>
+<h3>Tag "Sub"</h3>
+<p>Basicamente, ela faz o inverso da "sup", é muito usada para expressar calculos de química:</p>
+<p>H<sub>2</sub>O</p>
+<h3>Tag de listas ordenadas 'OL' e não ordenadas "UL"</h3>
+<p>As listas ordenadas, basicamente, são listas que seguem o padrão de numeração: 1, 2, 3...</p>
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+
+<p>As listas não ordenadas são o oposto das ordenadas, elas são usadas principalmente em sumários e menus:</p>
+<ul>
+    <li>Item 1</il>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+<p>*Para funcionar é necessário colocar a tag "li" (lista de itens)</p>
+
+<h3>A tag de Links "a"</h3>
+<p>Ela é muito importante, pois com ela é possível fazer ligações entre páginas dentro e fora do site</p>
+<p>*Ela só funciona se tiver o atributo "href"</p>
+<h3>Como fazer links que redirecionem para a mesma página?</h3>
+<p>Simples! É preciso apenas colocar um atributo "id" no elemento de destino e mencioná-lo na tag "a href="#"". Dessa forma você consweguirá fazer isso (faça o texto clicando em voltar no botão acima)</p>
+
+<h3>Tag "Samall"</h3>
+Ela deixa o texto bem <small>pequeno.</small>
+<h3>Tag "abbr"</h3>
+<p>Ela serve para indicar a leitores de tela e navegadores que há uma sigla no texto. Exemplo:<br>
+Eu sou do Estado de <abbr title="Pernambuco">PE</abbr>.</p>
+<h3>Tag "hr"</h3>
+<p>Ela cria uma linha horizontal. Veja como funciona:</p>
+<hr/>
+<h2 id="EDEPDIO">Entendendo a dinâmica de entrega de Projetos da DIO</h2>
+<a href="#INICIO"><small>Voltar</small></a>
+<p>Eu gostei muito da dinâmica, aprendi bastante coisas com o curso, ainda mais sgora pondo a mão na massa. Me sinto seguro em relaçao a tudo o que eu fui ensinado.</p>
+    <h2 id="ARPE">Agradecimentos e Referências para estudos</h2>
+    <a href="#INICIO"><small>Voltar</small></a>
+<p>Só tenho a agradecer a Dio e ao professor Diogo pelo ensinamentos.</p>
+<h3>Referências que usei para pesquisar as tags propostas pelo o desafio:</h3>
+<ul>
+    <li>
+        <a href="https://www.htmlprogressivo.net/2013/08/font-tag-Como-alterar-a-fonte-tamanho-e-cor-de-textos-de-um-website.html">A < font > tag e seus atributos - Como alterar a fonte, tamanho e cor de textos em um site HTML</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/watch?v=6UvirLS_Mpo">Tag sub do HTML 5</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/watch?v=ImBKxFowqqo">Tag abbr do HTML 5</a>
+    </li>
+    <p>*Não falei sobre a tag "font" porque ela foi descontinuada no html5.</p>
+</ul>
+
+</body>
+</html>
